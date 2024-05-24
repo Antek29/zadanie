@@ -1,0 +1,26 @@
+.item{
+    border: 1px solid black;
+    width: 664px;
+    text-align: center;
+}
+
+.item:hover{
+    background-color: rgb(168, 167, 167);
+    cursor: pointer;
+    box-shadow: 8px 8px 24px gray;
+}
+
+.article_list{
+    display: inline-flex;
+    gap:20px;
+}
+
+.btn_contanier{
+    height: 300px;
+    width: 664px;
+}
+
+.btn_contanier:hover{
+    background-color: rgb(168, 167, 167);
+    cursor: pointer;
+}
