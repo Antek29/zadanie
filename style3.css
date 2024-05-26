@@ -1,0 +1,24 @@
+.item{
+    border: 1px solid black;
+    width: 400px;
+    text-align: center;
+}
+
+.item:hover{
+    background-color: rgb(111, 84, 84);
+    cursor: help;
+    box-shadow: 8px 8px24px gray; /*cień dla boku*/
+}
+
+.article_list{
+    display: inline-flex; /*bloki obok siebie*/
+    gap: 20px;
+}
+
+img{
+    width: 200px;
+}
+
+body{
+	background-color: rgb(154, 151, 223);
+}
